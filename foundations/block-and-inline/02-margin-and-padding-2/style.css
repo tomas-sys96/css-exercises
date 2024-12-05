@@ -3,6 +3,12 @@ body {
   font-family: sans-serif;
 }
 
+.card, 
+.card h1, 
+.card div {
+  padding: 8px;
+}
+
 .card {
   width: 400px;
   background: #fff;
@@ -11,10 +17,6 @@ body {
 
 .with-margin-bottom {
   margin-bottom: 8px;
-}
-
-.with-padding {
-  padding: 8px;
 }
 
 .title {
