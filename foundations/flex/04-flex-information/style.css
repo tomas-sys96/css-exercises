@@ -30,7 +30,7 @@ img {
 
 .image-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 52px;
 }
 
