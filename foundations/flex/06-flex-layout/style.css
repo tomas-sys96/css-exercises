@@ -30,12 +30,14 @@ input {
 }
 
 ul {
-  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-li a {
+a {
   text-decoration: none;
   color: #808080;
 }
@@ -47,24 +49,14 @@ li a {
 }
 
 .footer {
-  background: #d3d3d3;
-}
-
-.left-links, .right-links {
-  display: flex;
-  gap: 16px;
+  background: #eeeeee;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-.content img {
-  margin-bottom: 16px;
-}
-
-.content .input {
-  margin-bottom: 16px;
+  gap: 16px;
+  flex: 1;
 }
