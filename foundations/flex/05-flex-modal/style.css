@@ -73,16 +73,11 @@ button.cancel {
   color: royalblue;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .header p {
@@ -90,4 +85,8 @@ button.cancel {
   font-weight: bold;
   margin: 0;
   padding: 0;
+}
+
+.text {
+  margin-bottom: 16px;
 }
